@@ -1,0 +1,19 @@
+{
+  "_class_name": "Transformer2DModel",
+  "_diffusers_version": "0.10.0.dev0",
+  "attention_head_dim": 384,
+  "num_attention_heads": 6,
+  "num_layers": 4,
+  "patch_size": 5,
+  "cross_attention_dim": 128,
+  "in_channels": 1,
+  "norm_eps": 1e-05,
+  "norm_num_groups": 4,
+  "only_cross_attention": false,
+  "out_channels": 1,
+  "sample_size": [100, 500],
+  "use_linear_projection": true,
+  "upcast_attention": true,
+  "norm_type":"ada_norm_single",
+  "num_embeds_ada_norm": 128
+}

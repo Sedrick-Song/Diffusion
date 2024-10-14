@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "cwd": "/apdcephfs/private_sedricksong/Encodec_DiT",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0",
+                "PYTHONPATH": "/apdcephfs/private_sedricksong/Encodec_DiT",
+                "USER": "root",
+                //"LD_LIBRARY_PATH": "/usr/local/cuda-11.7/lib64"
+            },
+            "args": []
+        }
+    ]
+}
